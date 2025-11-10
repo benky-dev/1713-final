@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=Spinnaker&display=swap');
+
+.logo {
+  width: 40px;
+}
+
+.topnav {
+  background-color: #1a1a1a;
+}
+
+.heroOverlay {
+  z-index: 12;
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  right: 0px;
+  margin: auto auto 0 10%;
+  width: 80%;
+  padding: 30px 0;
+  background: rgba(0,0,0,.5);
+}
+
+.heroOverlay h1 {
+  font-size: 5.5vw;
+}
+
+.heroOverlay p {
+  font-size: 3vw;
+}
+
+.heroOverlay a {
+  font-size: 2vw;
+  padding: .5vw 1vw;
+}
+
+.rozha-one-regular {
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spinnaker-regular {
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, a {
+  font-family: "Rozha One", serif;
+}
+
+p {
+  font-family: "Spinnaker", sans-serif;
+}
+
+.card {
+  background-color: #FFF1D7;
+}
+
+h2, h5 {
+  color: #6A3D08;
+}
