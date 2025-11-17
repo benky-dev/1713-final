@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, a {
   font-family: "Rozha One", serif;
 }
 
-p {
+p, footer, footer a {
   font-family: "Spinnaker", sans-serif;
 }
 
@@ -59,4 +59,9 @@ p {
 
 h2, h5 {
   color: #6A3D08;
+}
+
+.subheader {
+  background-color: #6A3D08;
+  color: #FFF1D7;
 }
