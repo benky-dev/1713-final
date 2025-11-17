@@ -13,6 +13,66 @@
     <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
-  
+  <nav class="navbar topnav bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-sm">
+      <a class="navbar-brand"><img class="logo mx-1" src="images/blacksquirrel_logo.svg" alt=""><h4 class="d-none d-md-inline">Black Squirrel Books</h4></a>
+      <ul class="navbar-nav ms-auto flex-row gap-3 align-items-center sticky-top">
+        <li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </li>
+        <li class="nav-item d-none d-md-inline">
+          <button type="button" class="btn btn-light btn-outline-secondary">
+            <img class="me-2" src="images/login.svg" alt="">Login / Sign Up
+          </button>
+        </li>
+        <li class="nav-item d-inline d-md-none">
+          <a class="nav-link" href=""><img src="images/login_mobile.svg" alt=""></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="images/heart.svg" alt=""></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="cart.html"><img src="images/cart_empty.svg" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-sm">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Featured
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">New Releases</a></li>
+              <li><a class="dropdown-item" href="#">Best Selling</a></li>
+              <li><a class="dropdown-item" href="#">Our Choices</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="genres.html">Genres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cafe.html">Cafe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sale!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
