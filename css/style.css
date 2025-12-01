@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=Spinnaker&display=swap');
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 
 .logo {
   width: 40px;
@@ -64,4 +65,14 @@ h2, h5 {
 .subheader {
   background-color: #6A3D08;
   color: #FFF1D7;
+}
+
+.glide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glidething {
+  
 }
