@@ -58,9 +58,9 @@ p, footer, footer a {
   background-color: #FFF1D7;
 }
 
-.cart .card .card-img-top {
-  max-width: fit-content;
-}
+/* .cart .card .card-img-top {
+  max-height: fit-content;
+} */
 
 h2, h5 {
   color: #6A3D08;
