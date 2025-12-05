@@ -58,6 +58,10 @@ p, footer, footer a {
   background-color: #FFF1D7;
 }
 
+.cart .card .card-img-top {
+  max-width: fit-content;
+}
+
 h2, h5 {
   color: #6A3D08;
 }
@@ -68,11 +72,9 @@ h2, h5 {
 }
 
 .glide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: auto;
 }
 
-.glidething {
-  
+.test {
+  width: 100%;;
 }
