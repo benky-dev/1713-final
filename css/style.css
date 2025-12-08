@@ -76,6 +76,8 @@ h2, h5, .nav-link, .active {
   --bs-primary-rgb: 106, 61, 8;
   --bs-secondary: #fff1d7;
   --bs-secondary-rgb: 255, 241, 215;
+  --bs-dark: #1a1a1a;
+  --bs-dark-rgb: 26, 26, 26;
 }
 
 .glide {
