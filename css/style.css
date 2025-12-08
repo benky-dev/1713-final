@@ -46,6 +46,10 @@
   font-style: normal;
 }
 
+.cafe-img {
+  max-width: 100px;
+}
+
 h1, h2, h3, h4, h5, a {
   font-family: "Rozha One", serif;
 }
@@ -58,11 +62,7 @@ p, footer, footer a {
   background-color: #FFF1D7;
 }
 
-/* .cart .card .card-img-top {
-  max-height: fit-content;
-} */
-
-h2, h5 {
+h2, h5, .nav-link, .active {
   color: #6A3D08;
 }
 
